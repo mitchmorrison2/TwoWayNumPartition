@@ -14,4 +14,4 @@ This heuristic approach preprocesses the set of elements in order to reduce time
 -----------------------------------------------------------------------------------------------------------------
 
 <b>Running the project</b>
-All code for this project is inside the file NumPart.py and can be executed from the terminal using '''python NumPart.py'''
+All code for this project is inside the file NumPart.py and can be executed from the terminal using ```python NumPart.py```
