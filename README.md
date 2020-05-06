@@ -15,3 +15,4 @@ This heuristic approach preprocesses the set of elements in order to reduce time
 <b>Running the project</b><br>
 All code for this project is inside the file NumPart.py and can be executed from the terminal using 
 <br>```python NumPart.py``` <br>
+Output from the file is printed to <i>OutputFile.txt</i>
