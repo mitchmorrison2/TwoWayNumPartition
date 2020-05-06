@@ -1,0 +1,12 @@
+Set 1 elements:  [839, 769, 763, 572, 564, 343, 330, 308, 262, 188, 89, 38, 22] 
+ Set 2 elements:  [965, 888, 853, 846, 698, 526, 310]
+Trivial remainder: 1
+Time required for trivial implementation:  5.203823763000001  seconds
+
+
+Set 1 elements:  [965, 846, 769, 763, 564, 343, 330, 308, 188, 22] 
+ Set 2 elements:  [888, 853, 839, 698, 572, 526, 310, 262, 89, 38]
+Robust remainder: 23
+Time required for robust implementation:  3.178199999975817e-05 seconds
+
+

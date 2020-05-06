@@ -108,20 +108,23 @@ def robust_implementation(elements):
 
 if __name__ == '__main__':
 
+    # create output file
+    output = open("OutputFile.txt", 'w')
+
     # call trivial implementation
     start_trivial = time.perf_counter()
     triv_set1, triv_set2 = trivial_implementation(data)
     elapsed_triv = (time.perf_counter() - start_trivial)
 
-    print(sorted(triv_set1, reverse=True), '\n', sorted(triv_set2, reverse=True))
-    print("Trivial remainder:", abs(sum(triv_set1) - sum(triv_set2)))
-    print("Time required for trivial implementation: ", elapsed_triv, " seconds\n\n")
+    print("Set 1 elements: ", sorted(triv_set1, reverse=True), '\n', "Set 2 elements: ", sorted(triv_set2, reverse=True), file=output)
+    print("Trivial remainder:", abs(sum(triv_set1) - sum(triv_set2)), file=output)
+    print("Time required for trivial implementation: ", elapsed_triv, " seconds\n\n", file=output)
 
     # # call robust implementation
     start_robust = time.perf_counter()
     rob_set1, rob_set2 = robust_implementation(data)
     elapsed_robust = (time.perf_counter() - start_robust)
 
-    print(rob_set1, '\n', rob_set2)
-    print("Robust remainder:", abs(sum(rob_set1) - sum(rob_set2)))
-    print("Time required for robust implementation: ", elapsed_robust, "seconds\n\n")
+    print("Set 1 elements: ", rob_set1, '\n', "Set 2 elements: ", rob_set2, file=output)
+    print("Robust remainder:", abs(sum(rob_set1) - sum(rob_set2)), file=output)
+    print("Time required for robust implementation: ", elapsed_robust, "seconds\n\n", file=output)
