@@ -1,4 +1,5 @@
-<b>Mitch Morrison Final Project CS 3353</b><br>
+# CS 3353 Algorithms Final Project for Mitch Morrison <br>
+
 Number paritioning is a practice largely used in processor scheduling and disk space partitioning. Number partitioning entails dividing a group of tasks (knowing time required for each) with the goal of producing multiple subsets that each have the same or similar sums.
 
 <b>Two Approaches:</b><br>
