@@ -1,6 +1,6 @@
-Number paritioning is a practice used in core processor scheduling, disk space partitioning, and elsewhere. Number partitioning entails dividing a group of tasks by time required to complete each with the goal of producing multiple groups (based on the amount of cores/processors you plan on using) so that each core finishes at the same time. 
+Number paritioning is a practice largely used in processor scheduling and disk space partitioning. Number partitioning entails dividing a group of tasks (knowing time required for each) with the goal of producing multiple subsets that each have the same or similar sums.
 
-Two Approaches:
+<b>Two Approaches:</b>
 
 In this project, I will be demonstrating two approaches to a simple two-way number partitioning problem. Both will take the same input, a set of 100 numbers ranging from 0-1000. I will (attempt) to find the best way to parition the set of 100 numbers so that each set's sum is equal or very close to the others. 
 
