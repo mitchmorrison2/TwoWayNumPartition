@@ -16,7 +16,8 @@ jobs:
         run: python NumPart.py
 
       - name: Copy output files to artifact directory
-          run: mkdir artifacts
+          run: |
+            mkdir artifacts
             echo "Copying OutputFile.txt"
             cp OutputFile.txt artifacts/
 
