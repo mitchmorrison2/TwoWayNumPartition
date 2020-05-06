@@ -10,3 +10,8 @@ This approach will find all possible sets that exist and return the parted 2 arr
 
 <b>Second Approach: Greedy Heuristic </b>
 This heuristic approach preprocesses the set of elements in order to reduce time complexity to solve the problem. It will organize all elements in descending order and place the top two elements into one of two sets depending on which has a higher sum at the time, attempting to minimize the difference in sum of the two sets. This approach is not considered 'complete' as it does not always find the best answer. This algorithm has a time complexity of O(nlogn) as sorting is the most expensive operation.
+
+-----------------------------------------------------------------------------------------------------------------
+
+<b>Running the project</b>
+All code for this project is inside the file NumPart.py and can be executed from the terminal using '''python NumPart.py'''
