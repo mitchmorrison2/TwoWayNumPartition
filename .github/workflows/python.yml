@@ -17,10 +17,8 @@ jobs:
 
       - name: Copy output files to artifact directory
           run: mkdir artifacts
-            do
-            echo "  Copying OutputFile.txt"
+            echo "Copying OutputFile.txt"
             cp OutputFile.txt artifacts/
-            done
 
       - name: Upload output files to GitHub so they can be reviewed
         uses: actions/upload-artifact@v1
